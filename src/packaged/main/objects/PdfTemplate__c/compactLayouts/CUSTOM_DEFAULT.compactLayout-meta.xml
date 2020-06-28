@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUSTOM_DEFAULT</fullName>
+    <fields>Name</fields>
+    <fields>LetterFormat__c</fields>
+    <fields>DateFormatting__c</fields>
+    <fields>LastModifiedById</fields>
+    <label>Custom Default</label>
+</CompactLayout>

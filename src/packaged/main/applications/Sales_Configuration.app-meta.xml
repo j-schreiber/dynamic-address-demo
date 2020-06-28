@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#EAAEFD</headerColor>
+        <logo>setup_120</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Configure all sales related application settings (PDF Templates, etc)</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Sales Configuration</label>
+    <navType>Standard</navType>
+    <tabs>PdfTemplate__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Sales_Configuration_UtilityBar</utilityBar>
+</CustomApplication>

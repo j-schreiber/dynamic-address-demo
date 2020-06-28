@@ -1,0 +1,19 @@
+<apex:page controller="DemoAddressController" standardStylesheets="false" applyBodyTag="true" applyHtmlTag="false" showHeader="false" renderAs="pdf">
+
+    <apex:variable rendered="{! Template.LetterFormat__c != NULL }" var="LetterFormat" value="{! Template.LetterFormat__c }">
+        <apex:stylesheet value="{! URLFOR($Resource[Template.LetterFormat__c]) }" />
+    </apex:variable>
+
+    <!-- this is the dynamically rendered address -->
+    <div style="margin: 0mm 0mm 10mm 10mm;">
+        <apex:dynamicComponent componentValue="{! DynamicAddress }" />
+    </div>
+
+    <!-- this is a dynamically formatted date field -->
+    <div style="margin: 0mm 0mm 10mm 10mm;">
+        <apex:outputText value="{!DateFormatting}">
+            <apex:param value="{! QuoteRecord.CreatedDate }" />
+        </apex:outputText>
+    </div>
+
+</apex:page>

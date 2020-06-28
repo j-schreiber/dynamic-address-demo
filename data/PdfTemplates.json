@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "PdfTemplate__c",
+                "referenceId": "PdfTemplateRef1"
+            },
+            "Name": "Standard Angebotsvorlage für TMH Gmbh",
+            "Description__c": "Diese Vorlage wird für Angebote der TMH GmbH verwendet.",
+            "DateFormatting__c": "dd.MM.yyyy",
+            "AddressFormatting__c": "<p>{!BillingStreet}</p><p>{!BillingPostalCode} {!BillingCity}</p><p>{!BillingCountryCode}</p>",
+            "LetterFormat__c": "DIN_5008_Type_A",
+            "TaxDisplayOptions__c": "Show_Column_Show_NetGross_Prices"
+        },
+        {
+            "attributes": {
+                "type": "PdfTemplate__c",
+                "referenceId": "PdfTemplateRef2"
+            },
+            "Name": "Quote PDF Template TMH LLC",
+            "Description__c": "This template is used for quotes for USA market.",
+            "DateFormatting__c": "MM/dd/yyyy",
+            "AddressFormatting__c": "<p>{!BillingStreet}</p><p>{!BillingCity}, {!BillingStateCode} {!BillingPostalCode}</p>",
+            "LetterFormat__c": "ANSI_Letter",
+            "TaxDisplayOptions__c": "Hide_Column_Show_Net_Prices"
+        }
+    ]
+}

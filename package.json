@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-address-demo",
+  "version": "1.0.0",
+  "description": "Demo repository to showcase dynamic address rendering",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "sfdx-lwc-jest",
+    "test:unit:watch": "sfdx-lwc-jest --watch",
+    "test:unit:debug": "sfdx-lwc-jest --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlietzau/dynamic-address-demo"
+  },
+  "author": "jlietzau",
+  "license": "ISC",
+  "devDependencies": {
+    "@lwc/eslint-plugin-lwc": "^0.8.0",
+    "@salesforce/eslint-config-lwc": "^0.4.0",
+    "@salesforce/sfdx-lwc-jest": "^0.6.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0"
+  }
+}

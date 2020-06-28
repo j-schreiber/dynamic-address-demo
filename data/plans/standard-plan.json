@@ -1,0 +1,50 @@
+[
+    {
+        "sobject": "CurrencyType",
+        "saveRefs": false,
+        "resolveRefs": false,
+        "files": ["../CurrencyTypes.json"]
+    },
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["../Products.json"]
+    },
+    {
+        "sobject": "Pricebook2",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["../Pricebooks.json"]
+    },
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["../AccountsBusinesses.json", "../AccountsPersons.json"]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["../Contacts.json"]
+    },
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["../Opportunities.json"]
+    },
+    {
+        "sobject": "Quote",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["../Quotes.json"]
+    },
+    {
+        "sobject": "PdfTemplate__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["../PdfTemplates.json"]
+    }
+]

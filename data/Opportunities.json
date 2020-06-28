@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef1"
+            },
+            "Name": "Super Hangar With Platform",
+            "StageName": "Prospecting",
+            "CloseDate": "2019-12-31",
+            "Pricebook2Id": "@Pricebook2Ref1",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef2"
+            },
+            "Name": "10 New small Fighters",
+            "StageName": "Qualification",
+            "CloseDate": "2020-02-29",
+            "Pricebook2Id": "@Pricebook2Ref1",
+            "AccountId": "@AccountRef1"
+        }
+    ]
+}

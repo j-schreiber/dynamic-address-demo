@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AddressFormatting__c</fullName>
+    <description>Custom formatting for the recipient address. Allows to inject custom HTML code and placeholder</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the formatting that is used to display the recipient address. You can enter any raw text, placeholders in the format {!FieldName}, i.e. {!BillingStreet}, for merge fields and line breaks.</inlineHelpText>
+    <label>Address Formatting</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <length>1000</length>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

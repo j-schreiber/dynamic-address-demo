@@ -1,0 +1,16 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef11"
+            },
+            "FirstName": "Leoben",
+            "LastName": "Conoy",
+            "BillingStreet": "Alexanderplatz 1",
+            "BillingPostalCode": "10000",
+            "BillingCity": "Berlin",
+            "BillingCountryCode": "DE"
+        }
+    ]
+}

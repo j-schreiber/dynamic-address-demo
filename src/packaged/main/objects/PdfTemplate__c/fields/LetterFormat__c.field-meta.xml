@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LetterFormat__c</fullName>
+    <description>Letter Format CSS that is used to render the PDF</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the letter format for the rendered PDF</inlineHelpText>
+    <label>Letter Format</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DIN_5008_Type_A</fullName>
+                <default>true</default>
+                <label>DIN 5008 (Type A)</label>
+            </value>
+            <value>
+                <fullName>ANSI_Letter</fullName>
+                <default>false</default>
+                <label>ANSI Letter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,121 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref1"
+            },
+            "Name": "Hull and Support-Systems Maintenance",
+            "Description": "Contains small fixed on hull and life-support systems as well as non-critical internal systems.",
+            "ExternalId": "001-0001",
+            "ProductCode": "001-0001",
+            "Family": "Services",
+            "QuantityUnitOfMeasure": "per Hour",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref2"
+            },
+            "Name": "Battle-Damage Ship Repair",
+            "Description": "Repair of crucial structural damage on hull, engines and weapon systems.",
+            "ExternalId": "001-0002",
+            "ProductCode": "001-0002",
+            "Family": "Services",
+            "QuantityUnitOfMeasure": "per Hour",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref3"
+            },
+            "Name": "Engine Maintenance",
+            "Description": "Standard maintenance for all engines, not including jumps.",
+            "ExternalId": "001-0003",
+            "ProductCode": "001-0003",
+            "Family": "Services",
+            "QuantityUnitOfMeasure": "per Hour",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref4"
+            },
+            "Name": "Flight Maneuver Training: Beginner",
+            "Description": "Basic maneuvers for rookies. No pre-requisites!",
+            "ExternalId": "002-0001",
+            "ProductCode": "002-0001",
+            "Family": "Services",
+            "QuantityUnitOfMeasure": "per Day",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref5"
+            },
+            "Name": "Flight Maneuver Training: Intermediate",
+            "Description": "Building on the basic maneuvers also includes weapon usage during fights.",
+            "ExternalId": "002-0002",
+            "ProductCode": "002-0002",
+            "Family": "Services",
+            "QuantityUnitOfMeasure": "per Day",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref6"
+            },
+            "Name": "Small Fighter",
+            "Description": "Small Fighter class; Maxmimum agility, minimum maintenance cost.",
+            "ExternalId": "A-0001",
+            "ProductCode": "A-0001",
+            "Family": "Charging Stations",
+            "QuantityUnitOfMeasure": "Each",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref7"
+            },
+            "Name": "Build & Implementation",
+            "Description": "General cost for workforce; man and material for building stuff.",
+            "ExternalId": "003-0001",
+            "ProductCode": "003-0001",
+            "Family": "Services",
+            "QuantityUnitOfMeasure": "per Day",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref8"
+            },
+            "Name": "Heavy Fighter",
+            "Description": "Heavy Fighter Ship class; medium agility, higher maintenance costs. But better armor and weapons.",
+            "ExternalId": "A-0002",
+            "ProductCode": "A-0002",
+            "Family": "Charging Stations",
+            "QuantityUnitOfMeasure": "Each",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref9"
+            },
+            "Name": "ABL Wallbox 3W2264L eMH3 mit Kabel (2x11 kW, Kabel Typ 2, RCD, DC, Master, RFID, SIM, eichrechtskonform, Backend emonvia Live mit 2 Jahren Laufzeit)",
+            "Description": "> bis zu 11 kW Ladeleistung (5x schneller laden)\r\n> Lastmanagement Master \r\n> steuert bis zu 7 ABL eMH3 Slave Ladestationen\r\n> 2 integrierte FI-Schalter\r\n> inkl. Gleichfehlerstromerkennung\r\n> 2 integrierte MID-Energiezähler \r\n> Mess- und Eichrechtskonform für Abrechnungsvorgänge\r\n> inkl. Backend emonvia Live (Management, Monitoring & Abrechnung), 2 Jahre Laufzeit\r\n> RFID-Zugangsschutz \r\n> Kommunikation über mobile Datenverbindung (4G)\r\n> kompatibel mit diversen Backendsystemen (OCPP 1.5)\r\n> für alle Elektroautos geeignet \r\n> Abmessungen (HxBxT): 492 x 400 x 192 mm",
+            "ExternalId": "001-007-000070",
+            "ProductCode": "001-007-000070",
+            "Family": "Charging Stations",
+            "QuantityUnitOfMeasure": "Each",
+            "IsActive": true
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef1"
+            },
+            "Name": "Super Hangar With Platform (Max Config)",
+            "Status": "Draft",
+            "ExpirationDate": "2019-12-15",
+            "Pricebook2Id": "@Pricebook2Ref1",
+            "OpportunityId": "@OpportunityRef1",
+            "BillingCountryCode": "DE",
+            "ContactId": "@ContactRef1",
+            "BillingName": "Starship Galactica Ltd.",
+            "BillingStreet": "Allersberger Str. 8-10",
+            "BillingPostalCode": "90461",
+            "BillingCity": "Nürnberg"
+        },
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef2"
+            },
+            "Name": "Super Hangar With Platform (Minimum Config)",
+            "Status": "In Approval",
+            "ExpirationDate": "2019-12-01",
+            "Pricebook2Id": "@Pricebook2Ref1",
+            "OpportunityId": "@OpportunityRef1",
+            "BillingCountryCode": "DE",
+            "ShippingHandling": 13.37
+        },
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef3"
+            },
+            "Name": "Super Hangar With Platform (With Ships)",
+            "Status": "Cancelled",
+            "ExpirationDate": "2019-10-31",
+            "Pricebook2Id": "@Pricebook2Ref1",
+            "OpportunityId": "@OpportunityRef1",
+            "BillingCountryCode": "DE"
+        },
+        {
+            "attributes": {
+                "type": "Quote",
+                "referenceId": "QuoteRef4"
+            },
+            "Name": "Super Hangar With Platform (No Discounts)",
+            "Status": "Draft",
+            "ExpirationDate": "2019-10-31",
+            "Pricebook2Id": "@Pricebook2Ref1",
+            "OpportunityId": "@OpportunityRef1",
+            "BillingCountryCode": "DE"
+        }
+    ]
+}

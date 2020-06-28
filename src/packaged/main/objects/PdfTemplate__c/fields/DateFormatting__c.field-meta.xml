@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DateFormatting__c</fullName>
+    <defaultValue>&quot;dd.MM.yyyy&quot;</defaultValue>
+    <description>Formatter pattern that is used to format all date values on the quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the pattern that will be used to format dates. See https://mobilityhouse.atlassian.net/wiki/spaces/PI/pages/1503461403/Configure+Pattern+to+Format+Date+Values+on+PDFs for more details.</inlineHelpText>
+    <label>Date Formatting</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <length>30</length>
+</CustomField>
